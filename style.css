@@ -4,6 +4,7 @@ body {
     color: blue;
     font-size: 50px;
     text-align: center;
+    overflow: hidden;
 }
 
 div {
@@ -13,9 +14,8 @@ div {
     position: absolute;
     top: 100vh;
     animation: linear 10s infinite autoscroll;
-    overflow: hidden;
 }
 @keyframes autoscroll {
-    from {top: 6%;}
+    from {top: 75%;}
     to {top:-100%;}
 }
