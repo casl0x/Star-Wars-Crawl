@@ -1,0 +1,12 @@
+body {
+    background: url(./assets/starbg.avif) no-repeat;
+    background-size: cover;
+    color: blue;
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
