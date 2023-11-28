@@ -12,9 +12,10 @@ div {
     height: auto;
     position: absolute;
     top: 100vh;
-    animation: autoscroll 10s ease-in infinite ;
+    animation: linear 10s infinite autoscroll;
+    overflow: hidden;
 }
 @keyframes autoscroll {
-    from {bottom: 0%;}
-    to {top: -100%;}
+    from {top: 6%;}
+    to {top:-100%;}
 }
