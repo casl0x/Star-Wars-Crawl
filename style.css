@@ -1,21 +1,25 @@
 body {
     background: url(./assets/starbg.avif) no-repeat;
     background-size: cover;
-    color: blue;
+    color: cyan;
     font-size: 50px;
     text-align: center;
     overflow: hidden;
 }
 
 div {
-    transform: rotateX(60deg);
+    transform: rotateX(70deg);
     width: auto;
     height: auto;
     position: absolute;
     top: 100vh;
-    animation: linear 10s infinite autoscroll;
+    animation: linear 20s infinite autoscroll;
 }
 @keyframes autoscroll {
     from {top: 75%;}
-    to {top:-100%;}
+    to {top:-150%;}
+}
+
+img {
+    height: 60px;
 }
