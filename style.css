@@ -5,3 +5,16 @@ body {
     font-size: 50px;
     text-align: center;
 }
+
+div {
+    transform: rotateX(60deg);
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 100vh;
+    animation: autoscroll 10s ease-in infinite ;
+}
+@keyframes autoscroll {
+    from {bottom: 0%;}
+    to {top: -100%;}
+}
